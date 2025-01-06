@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 int reverseNumber(int input) {
-  // Lösung hier einfügen
+  String numberStr= input.toString();
+  String reversedStr = numberStr.split('').reversed.join('');
+   return int.parse(reversedStr);
   throw UnimplementedError();
 }
 
